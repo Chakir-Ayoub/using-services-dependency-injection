@@ -5,7 +5,7 @@ import { loggingservice } from '../logging.service';
   selector: 'app-account',
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css'],
-  providers: [loggingservice,AccountService]
+  providers: [loggingservice]
 })
 export class AccountComponent {
   constructor(private loggingservice:loggingservice,private accountService:AccountService){}
